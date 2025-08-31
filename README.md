@@ -77,3 +77,7 @@ As discussed earlier, while algorithmic trading are seeing an uptick within the 
 ## AI Usage
 
 Parts of this repository (research framing, code scaffolding, doc text, and refactoring) were assisted by an AI coding assistant.
+
+## License
+
+MIT License
