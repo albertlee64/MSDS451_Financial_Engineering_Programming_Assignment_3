@@ -1,2 +1,4 @@
-# MSDS451_Financial_Engineering_Programming_Assignment_3
-MSDS451_Financial_Engineering_Programming_Assignment_3
+# MSDS451 Financial Engineering Programming Assignment 3
+Multi-Level Prediction Trader
+
+
