@@ -48,20 +48,7 @@ AnnVol:  0.2677
 Sharpe: -0.0399
 MaxDD: -0.7850
 
-	Ticker	Price	Score	Position	Ret	StratRet	Equity	Action
-Date								
-2025-08-14	AAPL	232.7800	0.4765	-1.0000	-0.0024	0.0024	0.3489	HOLD
-2025-08-15	AAPL	231.5900	0.4993	0.0000	-0.0051	0.0049	0.3507	HOLD
-2025-08-18	AAPL	230.8900	0.5240	0.0000	-0.0030	-0.0000	0.3507	HOLD
-2025-08-19	AAPL	230.5600	0.5189	0.0000	-0.0014	-0.0000	0.3507	HOLD
-2025-08-20	AAPL	226.0100	0.5505	0.0000	-0.0197	-0.0000	0.3507	HOLD
-2025-08-21	AAPL	224.9000	0.5528	0.0000	-0.0049	-0.0000	0.3507	HOLD
-2025-08-22	AAPL	227.7600	0.5672	0.0000	0.0127	0.0000	0.3507	HOLD
-2025-08-25	AAPL	227.1600	0.5720	0.0000	-0.0026	-0.0000	0.3507	HOLD
-2025-08-26	AAPL	229.3100	0.5848	0.0000	0.0095	0.0000	0.3507	HOLD
-2025-08-27	AAPL	230.4900	0.5778	0.0000	0.0051	0.0000	0.3507	HOLD
-2025-08-28	AAPL	232.5600	0.5915	0.0000	0.0090	0.0000	0.3507	HOLD
-2025-08-29	AAPL	232.1400	0.5932	0.0000	-0.0018	-0.0000	0.3507	HOLD
+<img width="468" height="302" alt="image" src="https://github.com/user-attachments/assets/1c0edbca-f643-428d-9785-0ee563c6484c" />
 
 The signal strength is driven by the “score” and it’s currently 0.5932 which sits between the BUY and SELL cutoffs for the chosen risk profile or a HOLD.
 
@@ -73,23 +60,8 @@ CAGR: None
 AnnVol:  0.1737
 Sharpe: -0.0149
 MaxDD: -0.7528
-	Ticker	Price	Score	Position	Ret	StratRet	Equity	Action
-Date								
-2025-08-14	MSFT	521.6225	0.5730	0.0000	0.0036	0.0000	0.8152	HOLD
-2025-08-15	MSFT	519.3163	0.5933	0.0000	-0.0044	-0.0000	0.8152	HOLD
-2025-08-18	MSFT	516.2513	0.6140	0.0000	-0.0059	-0.0000	0.8152	BUY
-2025-08-19	MSFT	508.9333	0.6755	0.0000	-0.0142	-0.0000	0.8152	BUY
-2025-08-20	MSFT	504.8900	0.7056	0.0000	-0.0079	-0.0000	0.8152	BUY
-2025-08-21	MSFT	504.2400	0.7038	0.0000	-0.0013	-0.0000	0.8152	BUY
-2025-08-22	MSFT	507.2300	0.6699	1.0000	0.0059	-0.0002	0.8151	BUY
-2025-08-25	MSFT	504.2600	0.6713	1.0000	-0.0059	-0.0059	0.8103	BUY
-2025-08-26	MSFT	502.0400	0.6818	1.0000	-0.0044	-0.0044	0.8067	BUY
-2025-08-27	MSFT	506.7400	0.6377	1.0000	0.0094	0.0094	0.8143	BUY
-2025-08-28	MSFT	509.6400	0.6143	1.0000	0.0057	0.0057	0.8189	BUY
-2025-08-29	MSFT	506.6900	0.6231	1.0000	-0.0058	-0.0058	0.8142	BUY
 
-Using the score signal again, MSFT is indicating as a BUY based on the model. The strategy delivered similarly weak outcomes when applied to both Apple (AAPL) and Microsoft (MSFT), though with slightly different risk profiles. For AAPL, the model produced no compounding growth, an annualized volatility of 26.8%, a negative Sharpe ratio (−0.04), and an extreme maximum drawdown of −78.5%. For MSFT, results were marginally less volatile but no more profitable: annualized volatility of 17.4%, a near-zero Sharpe ratio (−0.02), and a maximum drawdown of −75.3%. Trade logs for MSFT from August 2025 illustrate the mechanism of underperformance which resulted in scores drifting into the BUY territory
-<img width="468" height="639" alt="image" src="https://github.com/user-attachments/assets/6537cfa2-171d-45d1-87ac-9d9eb932f614" />
+<img width="468" height="302" alt="image" src="https://github.com/user-attachments/assets/b29fe3c2-03e6-4009-a29e-939ab71d03f0" />
 
-
+Using the score signal again, MSFT is indicating as a BUY based on the model. The strategy delivered similarly weak outcomes when applied to both Apple (AAPL) and Microsoft (MSFT), though with slightly different risk profiles. For AAPL, the model produced no compounding growth, an annualized volatility of 26.8%, a negative Sharpe ratio (−0.04), and an extreme maximum drawdown of −78.5%. For MSFT, results were marginally less volatile but no more profitable: annualized volatility of 17.4%, a near-zero Sharpe ratio (−0.02), and a maximum drawdown of −75.3%. Trade logs for MSFT from August 2025 illustrate the mechanism of underperformance which resulted in scores drifting into the BUY territory.
 
